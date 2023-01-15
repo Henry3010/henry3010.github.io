@@ -1,0 +1,196 @@
+/*General*/
+body {
+    background-color: black;
+    margin: 0 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navbar*/
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: black;
+    z-index: 100;
+
+}
+#logo {
+    width: auto;
+    height: 3.75rem;
+}
+#navbars {
+    width: auto;
+    height: 60px;
+    margin-right: 15px;
+    
+}
+#navbars:hover {
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    display: inline;
+    font-size: 2rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/*#navTitle {
+    visibility: hidden;
+}
+#navAboutMe {
+    visibility: hidden;
+}
+#navServices {
+    visibility: hidden;
+}*/
+#revealer {
+
+}
+#revealer img {
+
+}
+#revealer h1 {
+
+}
+
+/*Header*/
+header {
+    position: absolute;
+    top: 3.75rem;
+    width: 100%;
+    color: white;
+    height: 60rem;
+    text-align: center;
+    background-image: url('./content/intolleranza-1960-2021-c-sf-maarten-vanden-abeele-23-2000x1042.jpg');
+    background-size: 100%;
+}
+#headerDiv {
+
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+
+}
+header h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+header h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+header h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/*About Me*/
+#aboutMe {
+    position: relative;
+    top: 68rem;
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+}
+#aboutMe p {
+    color: white;
+    width: 40%;
+    height: 100%;
+    margin-top: 0;
+    font-size: 2rem;
+    word-spacing: 1rem;
+    line-height: 2rem;
+}
+#aboutMe img {
+    height: 100%;
+    width: auto;
+}
+
+/*Services*/
+section {
+    position: relative;
+    top: 68rem;
+    color: white;
+    margin: 0;
+}
+#sectionNav {
+
+}
+#sectionNav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#sectionNav li {
+    display: inline;
+    font-size: 2rem;
+    border: 1px solid white;
+    width: 32.5%;
+    text-align: center;
+    border-radius: 5px;
+}
+#sectionNav li:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.serviceText {
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+#textLightingDesign {
+    display: block;
+}
+#textProgramming {
+    display: none;
+}
+#textSoftwareDev {
+    display: none;
+}
+
+/*Footer*/
+footer {
+    position: relative;
+    top: 68rem;
+    color: white;
+    width: 100%;
+
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+footer li {
+    display: inline;
+}
+#footerLogo img{
+    width: auto;
+    height: 3.75rem;
+}
